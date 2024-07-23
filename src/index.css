@@ -11,3 +11,133 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Edit 버튼 스타일 */
+.edit {
+  background-color: #4caf50;
+  /* Edit 버튼 색상 (녹색) */
+  color: white;
+  box-shadow: 0 0 10px #4caf50, 0 0 20px #4caf50;
+  /* 네온 효과 */
+  transition: all 0.3s ease;
+  /* 부드러운 전환 효과 */
+}
+
+.edit:hover {
+  background-color: #43a047;
+  /* Edit 버튼 호버 색상 */
+  box-shadow: 0 0 20px #43a047, 0 0 30px #43a047;
+  /* 호버 시 네온 효과 */
+}
+
+/* Save 버튼 스타일 */
+.save {
+  background-color: #4caf50;
+  /* Save 버튼 색상 (녹색) */
+  color: white;
+  box-shadow: 0 0 10px #4caf50, 0 0 20px #4caf50;
+  /* 네온 효과 */
+  transition: all 0.3s ease;
+  /* 부드러운 전환 효과 */
+}
+
+.save:hover {
+  background-color: #43a047;
+  /* Save 버튼 호버 색상 */
+  box-shadow: 0 0 20px #43a047, 0 0 30px #43a047;
+  /* 호버 시 네온 효과 */
+}
+
+/* Cancel 및 Delete 버튼 스타일 */
+.cancel,
+.delete {
+  background-color: #ff5252;
+  /* Cancel 및 Delete 버튼 색상 (빨간색) */
+  color: white;
+  box-shadow: 0 0 10px #ff5252, 0 0 20px #ff5252;
+  /* 네온 효과 */
+  transition: all 0.3s ease;
+  /* 부드러운 전환 효과 */
+}
+
+.cancel:hover,
+.delete:hover {
+  background-color: #d50000;
+  /* Cancel 및 Delete 버튼 호버 색상 */
+  box-shadow: 0 0 20px #d50000, 0 0 30px #d50000;
+  /* 호버 시 네온 효과 */
+}
+
+/* Add 버튼 스타일 */
+.add {
+  background-color: #2196f3;
+  /* Add 버튼 색상 (파란색) */
+  color: white;
+  box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3;
+  /* 네온 효과 */
+  transition: all 0.3s ease;
+  /* 부드러운 전환 효과 */
+}
+
+.add:hover {
+  background-color: #1976d2;
+  /* Add 버튼 호버 색상 */
+  box-shadow: 0 0 20px #1976d2, 0 0 30px #1976d2;
+  /* 호버 시 네온 효과 */
+}
+
+/* 텍스트 에리어 스타일 */
+textarea {
+  background-color: #f0f0f0;
+  /* 배경 색상 */
+  color: #333;
+  /* 글자 색상 */
+  border: 2px solid #4caf50;
+  /* 테두리 색상 */
+  border-radius: 5px;
+  /* 모서리 둥글게 */
+  padding: 10px;
+  /* 내부 여백 */
+  width: 100%;
+  /* 너비 100% */
+  height: 100px;
+  /* 높이 설정 */
+  box-shadow: 0 0 10px #4caf50, 0 0 20px #4caf50;
+  /* 네온 효과 */
+  transition: all 0.3s ease;
+  /* 부드러운 전환 효과 */
+  resize: none;
+  /* 크기 조정 비활성화 */
+}
+
+textarea:focus {
+  outline: none;
+  /* 기본 포커스 아웃라인 제거 */
+  /* box-shadow: 0 0 20px #43a047, 0 0 30px #43a047;
+  포커스 시 네온 효과 */
+}
+
+/* 다이얼리 아이템 스타일 */
+.daily-item {
+  background-color: #ffffff;
+  /* 배경 색상 */
+  color: #333;
+  /* 글자 색상 */
+  border: 2px solid #4caf50;
+  /* 테두리 색상 */
+  border-radius: 5px;
+  /* 모서리 둥글게 */
+  padding: 10px;
+  /* 내부 여백 */
+  margin: 10px 0;
+  /* 상하 여백 */
+  box-shadow: 0 0 10px #4caf50, 0 0 20px #4caf50;
+  /* 네온 효과 */
+  transition: all 0.3s ease;
+  /* 부드러운 전환 효과 */
+}
+
+.daily-item:hover {
+  box-shadow: 0 0 20px #43a047, 0 0 30px #43a047;
+  /* 호버 시 네온 효과 */
+}
